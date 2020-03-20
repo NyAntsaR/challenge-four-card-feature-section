@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    font-weight: 100;
+}
+
+/* header */
+.title, .title p, footer p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-weight: 100;
+}
+
+h1 span {
+    font-weight: 400;
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+}
+
+
+/* card */
+.card {
+    padding: 10px;
+    margin: 20px 0px;
+    box-shadow: 3px 10px 20px hsl(229, 6%, 66%);
+}
+
+.middle {
+    margin: auto;
+}
+
+img {
+    float: right;
+    padding: 20px 0px 10px 0px;
+}
+
+#supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+#team{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#karma{
+    border-top: 3px solid hsl(34, 97%, 64%)
+}
+#calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
